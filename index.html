@@ -6,6 +6,8 @@
 
   <link rel="stylesheet" href="mystyle.css"> <!--この行を追加-->
   <script src="ex6-1.js"></script>
+  <script src="ex6-2.js"></script>
+  <script src="ex6-3.js"></script>
 
 </head>
 
@@ -29,11 +31,27 @@
   <input type="button" value= "撮影中①" onclick="imgchange1();">
   <input type="button" value= "撮影中②" onclick="imgchange2();">
 
+<h2>③編集していく</h2>
+<h3>好みの色やカットを繋ぎ合わせていく</h3>
   <br>
-  <img src='./image/sakurei2.png' id="sakurei" alt="sakurei" class="imagechange">
-  <br>
-    <input type="button" value= "編集中①" onclick="imgchange1();">
-    <input type="button" value= "編集中②" onclick="imgchange2();">
+  <img src='./image/dabinti.png' id="dabinti" alt="dabinti class="imagechange">
   
+
+<h2>完成</h2>
+<h3>完成はこちらから↓</h3>
+<a href="https://youtu.be/gZQeIdTlGfc"><img src="./image/samune.png" alt="YouTubeMV作例"></a>
+<h3>※音源は差し替えています。</h3>
+
+<h1>最後に</h1>
+  <!--setInterval-->
+  <form name="timer">
+    <input type="button" value="ご挨拶" onclick="startfnc();">
+    <br>
+    <input type="text" name="moji" size="30" value="">
+  </form>
+ 
+  <br>
+  <form><input type="button" value="Timer" onclick="setTimeout('mes()',3000);"></form>
+  <br>
 </body>
 </html>
